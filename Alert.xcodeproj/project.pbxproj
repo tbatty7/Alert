@@ -16,6 +16,7 @@
 		22B1C35C27ADD261000D6EB7 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C35B27ADD261000D6EB7 /* ViewControllerTests.swift */; };
 		22B1C35E27ADD2AE000D6EB7 /* ViewControllerPresentationSpy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B1C35D27ADD2AE000D6EB7 /* ViewControllerPresentationSpy.xcframework */; };
 		22B1C36027ADD3A0000D6EB7 /* ViewControllerPresentationSpy.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22B1C35D27ADD2AE000D6EB7 /* ViewControllerPresentationSpy.xcframework */; };
+		22B1C36427ADD4AD000D6EB7 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C36327ADD4AD000D6EB7 /* TestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		22B1C33E27ADC797000D6EB7 /* AlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B1C35B27ADD261000D6EB7 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		22B1C35D27ADD2AE000D6EB7 /* ViewControllerPresentationSpy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ViewControllerPresentationSpy.xcframework; sourceTree = "<group>"; };
+		22B1C36327ADD4AD000D6EB7 /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				22B1C35D27ADD2AE000D6EB7 /* ViewControllerPresentationSpy.xcframework */,
 				22B1C35B27ADD261000D6EB7 /* ViewControllerTests.swift */,
+				22B1C36327ADD4AD000D6EB7 /* TestHelpers.swift */,
 			);
 			path = AlertTests;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B1C35C27ADD261000D6EB7 /* ViewControllerTests.swift in Sources */,
+				22B1C36427ADD4AD000D6EB7 /* TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
