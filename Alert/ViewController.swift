@@ -11,11 +11,6 @@ class ViewController: UIViewController {
 
     @IBOutlet private(set) var button: UIButton!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
     @IBAction private func buttonTap() {
         let alert = UIAlertController(title: "Do the THING", message: "Let us know if you want us to do the thing", preferredStyle: .alert)
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { _ in
