@@ -25,4 +25,14 @@ final class ViewControllerTests: XCTestCase {
         alertVerifier.verify(title: "Do the THING", message: "Let us know if you want us to do the thing", animated: true, actions: [.cancel("Cancel"), .default("Ok"),], preferredStyle: .alert, presentingViewController: viewController)
         XCTAssertEqual(alertVerifier.preferredAction?.title, "Ok", "preferred action")
     }
+    
+    func test_executeAlertButton_withOkAction() throws {
+        tap(viewController.button)
+        try alertVerifier.executeAction(forButton: "Ok")
+    }
+    
+    func test_executeAlertButton_withCancelAction() throws {
+        tap(viewController.button)
+        try alertVerifier.executeAction(forButton: "Cancel")
+    }
 }
